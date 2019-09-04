@@ -47,7 +47,8 @@ namespace ClearCanvas.ImageViewer.Explorer.Dicom
 
 		public bool IsAvailable
 		{
-			get { return PermissionsHelper.IsInRole(AuthorityTokens.Explorer.DicomExplorer); }
+			//get { return PermissionsHelper.IsInRole(AuthorityTokens.Explorer.DicomExplorer); }
+            get { return false; }
 		}
 
 		public IApplicationComponent Component

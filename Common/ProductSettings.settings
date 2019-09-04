@@ -27,7 +27,7 @@
       <Value Profile="(Default)">IFtTeFRAYXJSd05YLwoOHg==</Value>
     </Setting>
     <Setting Name="Name" Type="System.String" Scope="Application">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Med-Image Viewer</Value>
     </Setting>
     <Setting Name="FamilyName" Type="System.String" Scope="Application">
       <Value Profile="(Default)" />

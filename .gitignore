@@ -44,7 +44,7 @@ aspnetdb_log.ldf
 ClearCanvas.Common.xml
 ClearCanvas.Desktop.xml
 ImageViewer/ClearCanvas.ImageViewer.xml
-
+.vs/
 # Viewer local datastore files
 dicom_datastore/*.sdf
 dicom_datastore/filestore/*.*

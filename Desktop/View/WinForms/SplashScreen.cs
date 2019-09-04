@@ -184,12 +184,16 @@ namespace ClearCanvas.Desktop.View.WinForms
 			SetStatusText(string.Empty);
 
 			// Initialize the version text to the executing assembly's
-			_version.Text = String.Format(SplashScreenSettings.Default.VersionTextFormat, ProductInformation.GetVersion(true, true, true));
-			_copyright.Text = ProductInformation.Copyright;
-			_license.Text = ProductInformation.License;
+			//_version.Text = String.Format(SplashScreenSettings.Default.VersionTextFormat, ProductInformation.GetVersion(true, true, true));
+			//_copyright.Text = ProductInformation.Copyright;
+			//_license.Text = ProductInformation.License;
 
-			// Make the window completely transparent
-			Opacity = 0;
+            _version.Text = "";
+            _copyright.Text = "";
+            _license.Text = "";
+
+            // Make the window completely transparent
+            Opacity = 0;
 
             // Set the manifest warning.
             _manifest.Visible = !ManifestVerification.Valid;

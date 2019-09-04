@@ -95,8 +95,16 @@ namespace ClearCanvas.Common
 		{
 			get
 			{
-				if (_name == null)
-					_name = Decrypt(_settings.Name);
+				/*if (_name == null)
+                {
+                    //_name = Decrypt(_settings.Name);
+                    _name = _settings.Name;
+                }*/
+                if (String.IsNullOrEmpty(_name))
+                {
+                    _name = _settings.Name;
+                }
+					
 				return _name;
 			}
 		}
@@ -402,6 +410,7 @@ namespace ClearCanvas.Common
 		public static string GetName(bool includeEdition, bool includeRelease)
 		{
 			return Concatenate(Name, GetNameSuffix(includeEdition, includeRelease));
+            //return Concatenate("Visualizador DICOM", " ");
 		}
 
 		/// <summary>

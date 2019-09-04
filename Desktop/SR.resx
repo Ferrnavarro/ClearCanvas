@@ -265,7 +265,7 @@
     <value>&amp;Edit</value>
   </data>
   <data name="MenuFile" xml:space="preserve">
-    <value>&amp;File</value>
+    <value>&amp;Archivo</value>
   </data>
   <data name="MenuHelp" xml:space="preserve">
     <value>&amp;Help</value>
@@ -301,7 +301,7 @@
     <value>Rename</value>
   </data>
   <data name="MenuTools" xml:space="preserve">
-    <value>&amp;Tools</value>
+    <value>&amp;Herramientas</value>
   </data>
   <data name="MenuUtilities" xml:space="preserve">
     <value>Utilities</value>
@@ -370,7 +370,7 @@
     <value>Description</value>
   </data>
   <data name="TitleEdit" xml:space="preserve">
-    <value>Edit</value>
+    <value>Editar</value>
   </data>
   <data name="TitleEditValue" xml:space="preserve">
     <value>Edit Value</value>
@@ -434,7 +434,7 @@
 You can configure this item, but you do not have permission to use it.</value>
   </data>
   <data name="LabelNotForDiagnosticUse" xml:space="preserve">
-    <value>Not for Diagnostic Use</value>
+    <value> </value>
   </data>
   <data name="LabelConfigurationWarningOffline" xml:space="preserve">
     <value>(Offline) Values shown may not be accurate, and changes may not be saved.</value>
